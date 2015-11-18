@@ -1,0 +1,102 @@
+/*
+Theme Name: OC Cavatina
+Theme URI: http://marcdwong.com/
+Description: OC Cavatina String Quartet Wordpress Theme
+Version: 0.03
+Author: Marc Wong
+Author URI: http://marcdwong.com/
+*/
+
+
+body {
+  padding-top:70px;
+  margin-bottom:200px;
+}
+.navbar .navbar-brand,
+.navbar-inverse .navbar-nav > li > a,
+.navbar-inverse .navbar-nav .open,
+.dropdown-menu > li > a
+{
+color: #FF9A36;
+}
+
+.navbar .navbar-brand:hover,
+.navbar-default .navbar-nav > li > a:hover {
+  color:#F37C06;
+}
+
+.navbar {
+opacity:0.95;
+}
+
+.logo {
+
+  padding-bottom:20px;
+}
+
+.portraits {
+  margin:40px 0;
+}
+.portraits p {
+  margin-top:-10px;
+}
+.portraits em {
+margin-top: -20px;
+}
+
+.portraits a {
+  color:#FF9A36;
+}
+
+.portraits a:hover {
+  text-decoration:none;
+}
+
+.portraits img:hover{
+  border-color:#FF9A36;
+
+}
+
+.portraits img {
+  border-radius:100%;
+  border: 5px solid white;
+  width:170px;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+
+}
+
+
+.footer {
+  padding-top:20px;
+  position:absolute;
+  width:100%;
+  color:white;
+  height:215px;
+  background-color:#F37C06;
+}
+
+.footer a {
+  color:#FFD4AA;
+}
+
+.well {
+  color:#F37C06;
+/*  background-color:#FFD4AA;
+  border-color:#FF9A36;*/
+}
+
+a.btn {
+  background-color:#FF9A36;
+  border-color:#F37C06;
+}
+
+@media only screen and (max-width: 768px) {
+  body { margin-bottom: 400px; }
+  .footer { height: 400px; }
+}
+@media only screen and (max-width: 992px) {
+  body { margin-bottom: 300px; }
+  .footer { height: 300px; }
+}
